@@ -1,0 +1,38 @@
+.banner{
+    background: url("https://static1995280916.files.wordpress.com/2021/09/aesthetic-1.jpg?w=1024") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.rounded-circle{
+    width: 290px;
+    height: 280px;
+}
+
+.informasi{
+    position: relative;
+    display: inline-block;
+    float: center;
+    font-family: 'Helvetica', sans-serif;
+    top: 45px;
+    margin-left: 30px;
+}
+
+.informasi .data{
+    display: block;
+    width: 100%;
+    height: 36px;
+}
+
+.informasi p.field{
+    text-align: left;
+    font-weight: 600;
+    width: 150px;
+    color: #333;
+}
+
+.informasi .data p{
+    float :left;
+}
