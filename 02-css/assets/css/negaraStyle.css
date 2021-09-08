@@ -1,0 +1,76 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f9fc;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: -1px -7px 20px 0px #888 ;
+}
+
+nav ul {
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: right;
+    right: 5%;
+}
+
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
+.img{
+    position: relative;
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    border-radius: 600px;
+    float: left;
+    top: 75px;
+    margin-left: 40px;
+}
+
+.img .jokowi{
+    height: 100%;
+    background-size: 100%;
+    background-position: 0px -20px;
+    border-radius: 300px;
+}
+
+.text{
+    margin-top: 11%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.indo{
+    text-align: center;
+    font-size: 50px;
+}
+
+.isi{
+    text-align: justify;
+    font-size: larger;
+}

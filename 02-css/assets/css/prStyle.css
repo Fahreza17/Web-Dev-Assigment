@@ -1,0 +1,71 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f9fc;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: -1px -7px 20px 0px #888 ;
+}
+
+nav ul {
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: right;
+    right: 5%;
+}
+
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
+/*isi*/
+img.unhas {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.informasi{
+    font-family: 'Helvetica', sans-serif ;
+}
+
+.MIPA{
+    text-align: center;
+}
+
+.studi{
+    text-align: center;
+}
+
+.isi{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+}
