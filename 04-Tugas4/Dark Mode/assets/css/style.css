@@ -1,0 +1,76 @@
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+    --primary-pct: url("https://static1995280916.files.wordpress.com/2021/09/dsc05994.jpg?w=1024")
+}
+
+.dark-theme{
+    --primary-color: black;
+    --secondary-color: white;
+    --primary-pct: url("https://static1995280916.files.wordpress.com/2021/09/aesthetic-1.jpg?w=1024");
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+.banner{
+    background: var(--primary-pct);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.Profil{
+    background:var(--primary-color);
+}
+
+.rounded-circle{
+    width: 290px;
+    height: 280px;
+}
+
+.data-diri{
+    color: var(--secondary-color);
+}
+
+.informasi{
+    background:var(--primary-color);
+    color: var(--secondary-color);
+    position: relative;
+    display: inline-block;
+    float: center;
+    font-family: 'Helvetica', sans-serif;
+    top: 45px;
+    margin-left: 30px;
+}
+
+.informasi .data{
+    display: block;
+    width: 100%;
+    height: 36px;
+}
+
+.informasi p.field{
+    text-align: left;
+    font-weight: 600;
+    width: 150px;
+}
+
+.informasi .data p{
+    float :left;
+}
+
+.valo{
+    background:var(--primary-color);
+}
+
+#Hobi{
+    color: var(--secondary-color);
+}
+
+.fakultas{
+    background:var(--primary-color);
+    color: var(--secondary-color);
+}
